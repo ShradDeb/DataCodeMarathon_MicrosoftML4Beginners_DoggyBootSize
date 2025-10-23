@@ -27,14 +27,14 @@ The goal is to:
 | `boot_size`    | The target variable — actual dog boot size. |
 | `harness_size` | The input feature — dog harness size. |
 
-You can preview or download the dataset directly:
+**You can preview or download the dataset directly:**
 ```python
 import pandas as pd
 url = "https://raw.githubusercontent.com/MicrosoftDocs/mslearn-introduction-to-machine-learning/main/Data/doggy-boot-harness.csv"
 df = pd.read_csv(url)
 df.head()
 
-##Inference
+##  **Inference**
 We've put together a system that can predict if customers are buying doggy boots that might not fit their avalanche dog, based solely on the size of harness they're purchasing. 
 
 In this exercise, we practiced:
@@ -66,17 +66,27 @@ We covered some significant new jargon in this module. Let's recap what we've le
 
 
 ## How to Run the Code
-Clone this repository to your local machine.
-Ensure you have Python installed.
-Install the required libraries:
-pip install pandas scikit-learn nltk
-Place the amazon.csv file in the same directory as the script.
-Run the script from your terminal:
-python sentiment_analysis.py
+
+1.  Clone this repository to your local machine.
+2.  Ensure you have Python installed.
+3.  Install the required libraries:
+    ```
+    pip install pandas scikit-learn nltk
+    ```
+4.  Place the `amazon.csv` file in the same directory as the script.
+5.  Run the script from your terminal:
+    ```
+    python sentiment_analysis.py
+    ```
+
 Feel free to explore the code, modify the parameters, and experiment with different models!
 
-**Author: Shraddha Debata**
+---
 
-**Connect with me on LinkedIn: https://www.linkedin.com/in/shraddha-debata-59726094**
+**Author:** **Shraddha Debata**
 
-**View more of my work: Tableau https://public.tableau.com/app/profile/shraddha.debata2941/vizzes** 
+**Connect with me on LinkedIn:**  https://www.linkedin.com/in/shraddha-debata-59726094
+
+**View more of my work:** 
+**Tableau** https://public.tableau.com/app/profile/shraddha.debata2941/vizzes 
+**Kaggle** https://www.kaggle.com/code/shraddhadebata/notebooke11b1b1723
