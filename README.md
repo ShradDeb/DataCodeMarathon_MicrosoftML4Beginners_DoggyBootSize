@@ -33,11 +33,12 @@ import pandas as pd
 url = "https://raw.githubusercontent.com/MicrosoftDocs/mslearn-introduction-to-machine-learning/main/Data/doggy-boot-harness.csv"
 df = pd.read_csv(url)
 df.head()
+```
 
-##  **Inference**
+##  Inference
 We've put together a system that can predict if customers are buying doggy boots that might not fit their avalanche dog, based solely on the size of harness they're purchasing. 
 
-In this exercise, we practiced:
+**In this exercise, we practiced:**
 
 1. Creating basic models.
 2. Training, then saving them to disk.
@@ -52,11 +53,10 @@ We covered some significant new jargon in this module. Let's recap what we've le
 # Machine learning differs from normal software development in that we use special code, rather than our own intuition, to improve how well the software works.
 
 # The learning process conceptually uses four components:
-
-1. Data, which is information we want to learn from.
-2. A model, which makes estimates about the data.
-3. An objective the model is trying to achieve.
-4. An optimizer, extra code that changes the model depending on its performance.
+    1. Data, which is information we want to learn from.
+    2. A model, which makes estimates about the data.
+    3. An objective the model is trying to achieve.
+    4. An optimizer, extra code that changes the model depending on its performance.
 
 # You can think of data as features and labels. Features correspond to potential model inputs, while labels correspond to model outputs, or desired model outputs.
 
